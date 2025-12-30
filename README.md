@@ -2,39 +2,39 @@
 A Swift Scripts that change visual Mac appearance in desired mood.
 
 
-### Supported Enviroments
+## Supported Enviroments
 - `reflective`
 - `execution`
 - `minimal`
 - `creative`
 
-### Based on my personal thoughts and some science backups
+## Based on my personal thoughts and some science backups
 The reason behind this is that colors influence us.
 The overall picture.
 
 May be other things too but i haven't know it and didn't applied inside MAC.
 
 
-#### Changes to Wallpaper
+### Changes to Wallpaper
 
-# 1. Minimal: "Love, Harmony" (Yellow -> Pink -> Pink)
-# colors: ['#ffff00', '#c54b8c', '#c54b8c']
-gen_gradient "minimal" "#ffff00 #c54b8c #c54b8c"
+1. Minimal: "Love, Harmony" (Yellow -> Pink -> Pink)
+ - colors: ['#ffff00', '#c54b8c', '#c54b8c']
+ - gen_gradient "minimal" "#ffff00 #c54b8c #c54b8c"
 
-# 2. Creative: "Freedom Light..." (Wheat -> Lavender -> Pink -> Red)
-# colors: ['#f5deb3', '#ccccff', '#c54b8c', '#eb284f']
-gen_gradient "creative" "#f5deb3 #ccccff #c54b8c #eb284f"
+3. Creative: "Freedom Light..." (Wheat -> Lavender -> Pink -> Red)
+ - colors: ['#f5deb3', '#ccccff', '#c54b8c', '#eb284f']
+ - gen_gradient "creative" "#f5deb3 #ccccff #c54b8c #eb284f"
 
-# 3. Execution: "Focus & Achievements" (Cyan -> Blue -> Red)
-# colors: ['#00ffff', '#007fff', '#eb284f']
-gen_gradient "execution" "#00ffff #007fff #eb284f"
+4. Execution: "Focus & Achievements" (Cyan -> Blue -> Red)
+ - colors: ['#00ffff', '#007fff', '#eb284f']
+ - gen_gradient "execution" "#00ffff #007fff #eb284f"
 
-# 4. Reflective: "Degrade Negative..." (DarkRed -> Lavender -> Pink -> Yellow)
-# colors: ['#b22222', '#ccccff', '#c54b8c', '#ffff00']
-gen_gradient "reflective" "#b22222 #ccccff #c54b8c #ffff00"
+5. Reflective: "Degrade Negative..." (DarkRed -> Lavender -> Pink -> Yellow)
+ - colors: ['#b22222', '#ccccff', '#c54b8c', '#ffff00']
+ - gen_gradient "reflective" "#b22222 #ccccff #c54b8c #ffff00"
 
 
-##### Exact Changes for different Enviroments
+#### Exact Changes for different Enviroments
  ```
          case .minimal:
             return ModeDescriptor(
