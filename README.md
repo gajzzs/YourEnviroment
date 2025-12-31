@@ -12,7 +12,7 @@ A Swift Scripts that change visual Mac appearance in desired mood.
 The reason behind this is that colors influence us.
 The overall picture.
 
-May be other things too but i haven't know it and didn't applied inside MAC.
+May be other things too but i haven't know it and didn't applied inside Mac.
 
 
 ### Changes to Wallpaper
