@@ -8,6 +8,12 @@ A Swift Scripts that change visual Mac appearance in desired mood.
 - `minimal`
 - `creative`
 
+## How to run
+```
+./switch_mode.swift <mode>
+```
+
+
 ## Based on my personal thoughts and some science backups
 The reason behind this is that colors influence us.
 The overall picture.
