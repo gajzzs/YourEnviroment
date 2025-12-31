@@ -85,4 +85,11 @@ May be other things too but i haven't know it and didn't applied inside Mac.
                 obsidianTheme: "Prism"
             )
 
-            ```
+ ```
+
+##### Note
+ - You may want to remove obsidian or ignore it
+   - let vaultPath = "/Volumes/w/debuglogs/.obsidian/appearance.json"
+ - There are hardcoded paths
+ - Display Resolution may be unsupported on your Mac
+ - You need compile display_controller.c
